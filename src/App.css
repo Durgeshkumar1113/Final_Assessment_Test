@@ -1,0 +1,105 @@
+
+.pictureformbox{
+  display: flex;
+  display: flex;
+  width: 55%;
+  
+}
+form {
+  width: 100%;
+
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 5px;
+ 
+}
+
+button[type="submit"] {
+  padding: 6px 50px;
+  background-color: #2efc04;
+  color: #f70404;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #fc0606;
+}
+
+.me-auto{
+  display: flex;
+  justify-content: space-between;
+  width: 55vw;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.content {
+  margin-top: 90px;
+}
+#ram{
+  padding-left:5%;
+  padding-right:5%;
+  color:rgb(255, 0, 0);
+  font-family:serif;
+  font-size: 25px;
+}
+
+
+#ram::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  animation: rotateBorder 1s linear infinite;
+}
+
+@keyframes rotateBorder {
+  0% {
+    border-color: transparent transparent transparent rgb(0, 255, 213);
+  }
+  25% {
+    border-color: transparent yellow transparent transparent;
+  }
+  50% {
+    border-color: rgb(0, 255, 34) transparent transparent transparent;
+  }
+  75% {
+    border-color: transparent transparent rgb(255, 0, 255) transparent;
+  }
+  100% {
+    border-color: transparent rgb(255, 0, 0) transparent transparent;
+  }
+}
+
+
+.my-navbar a:hover {
+  background: #03e9f4;
+  color: #080808;
+  box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4,
+    0 0 250px  #03e9d4;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+.my-navbar a:nth-child(1) {
+  filter: hue-rotate(300deg);
+}
+#logo{
+  height:3rem;
+  display: flex;
+  color: #f40303;
+  font-family: serif;
+  font-size: 105px;
+  line-height: 0.5;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
